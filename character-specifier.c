@@ -56,7 +56,7 @@ int get_print_func(char *s, va_list ap, params_t *params)
 }
 
 /**
- * get_flag - finds the flag func
+ * get_flag - finds the flag function
  * @s: the format string
  * @params: the parameters struct
  *
@@ -119,7 +119,7 @@ int get_modifier(char *s, params_t *params)
  * Return: new pointer
  */
 char *get_width(char *s, params_t *params, va_list ap)
-/* should this function use char **s and modify the pointer? */
+/*use char **s to modify the pointer? */
 {
 	int d = 0;
 
